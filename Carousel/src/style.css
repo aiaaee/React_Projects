@@ -1,0 +1,28 @@
+*:not(.QAcontent){
+    background-color: purple;
+}
+.QAcontent{
+    width: 600px;
+    margin-top: 10%;
+    background-color: white;
+}
+.QAcontent li , .QAcontent h2 , .QAcontent div , .QAcontent span {
+    list-style-type: none;
+    background-color: white;
+}
+.QAcontent button{
+    background-color: lightblue;
+    font-weight: bold;
+}
+.ClickDefiner li::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+.ClickDefiner li span{
+    margin-top: 12px;
+    float: left;
+}
+.ClickDefiner li button{
+    float: right;
+}
