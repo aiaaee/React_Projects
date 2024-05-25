@@ -1,28 +1,42 @@
-*:not(.QAcontent){
+*:not(.QAcontent) {
     background-color: purple;
 }
-.QAcontent{
-    width: 600px;
+
+.QAcontent {
+    font-family: 'Courier New', Courier, monospace;
+    width: 800px;
     margin-top: 10%;
     background-color: white;
 }
-.QAcontent li , .QAcontent h2 , .QAcontent div , .QAcontent span {
+
+.QAcontent li,
+.QAcontent h2,
+.QAcontent div,
+.QAcontent span {
     list-style-type: none;
     background-color: white;
 }
-.QAcontent button{
+
+.QAcontent button {
     background-color: lightblue;
     font-weight: bold;
 }
-.ClickDefiner li::after{
+
+.ClickDefiner li span:hover {
+    cursor: crosshair
+}
+
+.ClickDefiner li::after {
     display: block;
     content: "";
     clear: both;
 }
-.ClickDefiner li span{
+
+.ClickDefiner li span {
     margin-top: 12px;
     float: left;
 }
-.ClickDefiner li button{
+
+.ClickDefiner li button {
     float: right;
 }
