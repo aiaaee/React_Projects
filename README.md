@@ -38,4 +38,17 @@ yarn create react-app my-app
 `yarn create` is available in Yarn 0.25+
 
 
+#### Selecting a template
+
+You can now optionally start a new app from a template by appending `--template [template-name]` to the creation command.
+
+If you don't select a template, we'll create your project with our base template.
+
+Templates are always named in the format `cra-template-[template-name]` , however you only need to provide the `[template-name]` to the creation command.
+
+```
+npx create-react-app my-app --template [template-name]
+```
+
+
 Your app is ready to be deployed.
