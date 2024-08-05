@@ -16,3 +16,16 @@ One of the most important reasons you should use a to do list is that it will he
 When you complete a task, you can cross it off your list. This gives you a sense of progress and achievement, something you’ll lack if you’re always rushing from one task to the next. If you feel a sense of achievement, it spurs you on and motivates you to keep moving forward.
 
 
+### What did we do in Project? 
+
+we wrote an app that is able to add tasks and maintain out day-to-day works or list everything that we have to do. 
+with the most important tasks at the top of the list, and the least important tasks at the bottom. It is helpful in planning our daily schedules. We can add more tasks at any time and delete a task that is completed. 
+
+### features 
+In this version of the ToDo list, the user will be getting four options:
+
+Create (add) a new task or adding a new ToDo in the ToDo List App.
+See all the tasks or View all the ToDos that were added to the app.
+Delete any ToDo from the list of ToDos.
+Exit from the app.
+
