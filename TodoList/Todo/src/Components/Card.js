@@ -1,5 +1,5 @@
 import React from "react"
-import { GlobalApp } from "./Context"
+import { GlobalApp } from "../Contexts/Context";
 function Card() {
   const {add , DeleteHandler , DoneHandler} = GlobalApp();
   return (

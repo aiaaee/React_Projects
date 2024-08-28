@@ -1,5 +1,5 @@
 import React from 'react'
-import { GlobalApp } from './Context'
+import { GlobalApp } from '../Contexts/Context';
 function InputSection() {
   const {setInput , alarm , input , AddHandler} = GlobalApp();
   return (
