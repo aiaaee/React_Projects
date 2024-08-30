@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.cards-show{
+  display: flex;
+  margin-left: 20px;
+  margin-top: 12px;
+  justify-content: space-between;
+}
+.signs{
+  margin-top: 3px;
+  margin-right: 12px;
+}
+.signs a {
+  margin-left: 12px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.signs a:hover{
+  text-decoration: underline;
+}
+
+.header_navbar{
+  justify-content: space-between;
+}
